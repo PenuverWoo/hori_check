@@ -30,7 +30,7 @@ def hist_compare(img1,img2):
     match2 = cv2.compareHist(hist1,hist2,cv2.HISTCMP_CORREL)
     match3 = cv2.compareHist(hist1,hist2,cv2.HISTCMP_CHISQR)
     print('巴士距离： %s, 相关性：%s， kafang: %s'%(match1,match2,match3))
-    #print(match2)
+    #print(match2)111
 
 print('------------')
 hist_compare(scr,scr2)
